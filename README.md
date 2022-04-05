@@ -1,4 +1,5 @@
 graphql的文档https://www.apollographql.com/docs/react/data/mutations
+
 1.
 {
   book(id:2){
@@ -21,6 +22,7 @@ graphql的文档https://www.apollographql.com/docs/react/data/mutations
     }
   }
 }
+
 2.
 { 
   books{
@@ -37,6 +39,7 @@ graphql的文档https://www.apollographql.com/docs/react/data/mutations
   },
  
 }
+
 3.
 {
    authors{
@@ -53,6 +56,7 @@ graphql的文档https://www.apollographql.com/docs/react/data/mutations
       age
     }
   }
+  
 5.
   {
     author(id:"6249ac97cc13369f8f8551f2"){
@@ -65,6 +69,7 @@ graphql的文档https://www.apollographql.com/docs/react/data/mutations
     }
   }
 }
+
 
 6.
 mutation addBookMutation{
